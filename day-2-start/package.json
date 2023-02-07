@@ -1,0 +1,29 @@
+{
+  "name": "rom-fyren",
+  "version": "1.0.0",
+  "description": "it is a project to find your dream room you sad guy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-production": "vite build --mode production",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heshamelmasry77/rom-fyren.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heshamelmasry77/rom-fyren/issues"
+  },
+  "homepage": "https://github.com/heshamelmasry77/rom-fyren#readme",
+  "devDependencies": {
+    "vite": "^4.1.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.7.0"
+  }
+}
