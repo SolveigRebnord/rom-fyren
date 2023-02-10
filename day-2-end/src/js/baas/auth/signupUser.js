@@ -7,7 +7,7 @@ const supabase = createClient(
 )
 
 async function signupUser(email, password) {
-    let {data, error} = await supabase.auth.signUp({
+    let {data, error} = await supabase.auth.signUp({ //{ noe } er desctruction. Så vi får ut enten data, eller error. kan kalle det det vi vil
         email: email,
         password: password
     })

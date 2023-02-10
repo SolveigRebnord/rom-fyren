@@ -8,5 +8,6 @@ export default {
                 home: resolve(__dirname, './src/index.html')
             }
         }
-    }
+    },
+    envDir: '../'
 }
